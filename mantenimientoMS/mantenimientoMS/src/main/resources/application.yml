@@ -1,0 +1,19 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: mantenimientoMS
+  datasource:
+    url: jdbc:mysql://localhost:3306/mantenimiento_db
+    username: root
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

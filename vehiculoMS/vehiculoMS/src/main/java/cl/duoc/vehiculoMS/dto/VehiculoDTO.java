@@ -1,0 +1,16 @@
+package cl.duoc.vehiculoMS.dto;
+
+import lombok.*;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class VehiculoDTO {
+
+    private Integer id;
+    private String patente;
+    private String marca;
+    private String modelo;
+    private String categoria;
+    private Double precioPorDia;
+}
