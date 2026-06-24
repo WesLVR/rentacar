@@ -33,3 +33,4 @@ public class Vehiculo {
     @JoinColumn(name = "categoria_id", nullable = false)
     private CategoriaVehiculo categoria;
 }
+
