@@ -1,18 +1,14 @@
 package cl.duoc.disponibilidadMS.controller;
-
 import java.time.LocalDate;
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import cl.duoc.disponibilidadMS.dto.DisponibilidadDetalleDTO;
 import cl.duoc.disponibilidadMS.model.Disponibilidad;
 import cl.duoc.disponibilidadMS.service.DisponibilidadService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
-
 
 @RestController
 @RequestMapping("/api/v1/disponibilidad")
