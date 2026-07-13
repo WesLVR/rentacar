@@ -1,7 +1,5 @@
 package cl.duoc.disponibilidadMS.model;
-
 import java.time.LocalDate;
-
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -29,5 +27,4 @@ public class Disponibilidad {
     private Boolean disponible;
 
     @Column
-    private String motivo; // x ejemplo: "Reservado", "En mantención", "Disponible"
-}
+    private String motivo; // Ej: "Reservado", "En mantención", "Disponible", "No Disponible"
