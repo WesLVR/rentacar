@@ -1,11 +1,8 @@
 package cl.duoc.disponibilidadMS.service;
-
 import java.time.LocalDate;
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import cl.duoc.disponibilidadMS.client.VehiculoClient;
 import cl.duoc.disponibilidadMS.dto.DisponibilidadDetalleDTO;
 import cl.duoc.disponibilidadMS.dto.VehiculoDTO;
