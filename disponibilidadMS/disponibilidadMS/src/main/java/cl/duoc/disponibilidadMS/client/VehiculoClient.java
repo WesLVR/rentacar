@@ -1,8 +1,6 @@
 package cl.duoc.disponibilidadMS.client;
-
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
-
 import cl.duoc.disponibilidadMS.dto.VehiculoDTO;
 
 @FeignClient(name = "vehiculoMS")
