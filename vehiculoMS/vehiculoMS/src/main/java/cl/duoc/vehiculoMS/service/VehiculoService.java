@@ -1,10 +1,7 @@
 package cl.duoc.vehiculoMS.service;
-
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import cl.duoc.vehiculoMS.model.Vehiculo;
 import cl.duoc.vehiculoMS.repository.VehiculoRepository;
 
@@ -46,7 +43,6 @@ public class VehiculoService {
         vehiculo.setAnio(vehiculoActualizado.getAnio());
         vehiculo.setPrecioPorDia(vehiculoActualizado.getPrecioPorDia());
         vehiculo.setCategoria(vehiculoActualizado.getCategoria());
-
         return vehiculoRepository.save(vehiculo);
     }
 
