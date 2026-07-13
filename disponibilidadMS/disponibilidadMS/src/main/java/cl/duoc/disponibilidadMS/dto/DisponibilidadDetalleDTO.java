@@ -1,7 +1,5 @@
 package cl.duoc.disponibilidadMS.dto;
-
 import java.time.LocalDate;
-
 import lombok.*;
 
 @Data
@@ -14,6 +12,5 @@ public class DisponibilidadDetalleDTO {
     private LocalDate fechaTermino;
     private Boolean disponible;
     private String motivo;
-
     private VehiculoDTO vehiculo;
 }
