@@ -1,17 +1,13 @@
 package cl.duoc.disponibilidadMS.config;
-
 import java.time.LocalDate;
-
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
 import cl.duoc.disponibilidadMS.model.Disponibilidad;
 import cl.duoc.disponibilidadMS.repository.DisponibilidadRepository;
 
 @Configuration
 public class DataLoader {
-
     @Bean
     CommandLineRunner initData(DisponibilidadRepository disponibilidadRepository) {
         return args -> {
